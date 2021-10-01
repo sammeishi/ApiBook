@@ -1,0 +1,23 @@
+{
+  "_id": "req_f1d1db4f703f46d0ad4887f6af5c74f0",
+  "parentId": "fld_891e62d8924f406c89750964b32bbaa4",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "",
+  "name": "测试",
+  "description": "",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214463,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

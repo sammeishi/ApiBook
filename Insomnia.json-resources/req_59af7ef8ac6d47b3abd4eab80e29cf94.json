@@ -1,0 +1,23 @@
+{
+  "_id": "req_59af7ef8ac6d47b3abd4eab80e29cf94",
+  "parentId": "fld_b70bd3611a274345aa2172b4a7c902db",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.ga/rudder/misc/oss-mgmt/list?token={{slc_token}}&alias=preview_image&zone=bodyseer/report/theme",
+  "name": "列出OSS",
+  "description": "",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214498,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

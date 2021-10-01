@@ -1,0 +1,23 @@
+{
+  "_id": "req_d35925b107e242c5a778f1a85578ec70",
+  "parentId": "fld_90db7692d8624df9b3cf71e0cfe0cb05",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.pro/bss/test",
+  "name": "测试收集方案构造",
+  "description": "",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214460,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

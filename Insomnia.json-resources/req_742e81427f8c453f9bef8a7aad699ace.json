@@ -1,0 +1,37 @@
+{
+  "_id": "req_742e81427f8c453f9bef8a7aad699ace",
+  "parentId": "fld_b1052e20122942b6bb369223ab470e10",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.ga/rudder/bsm/rbr/rbr-mgmt/add-ref?token={{slc_token}}&nid=1",
+  "name": "添加参考",
+  "description": "",
+  "method": "POST",
+  "body": {
+    "mimeType": "",
+    "text": [
+      "{\r",
+      "    \"nid\": \"034b63639e6fe342\",\r",
+      "    \"title\": \"参考标题\",\r",
+      "    \"content\": \"参考内容\"\r",
+      "}"
+    ]
+  },
+  "parameters": [],
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "authentication": {},
+  "metaSortKey": -1633081214474,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

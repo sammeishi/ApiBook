@@ -1,0 +1,23 @@
+{
+  "_id": "req_f54c4fb2019042379cb0d3650af834a0",
+  "parentId": "fld_b1052e20122942b6bb369223ab470e10",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.ga/rudder/bsm/rbr/rbr-mgmt/get-block?token={{slc_token}}&name=nihao",
+  "name": "查询区块(新建)",
+  "description": "",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214483,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

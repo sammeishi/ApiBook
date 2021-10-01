@@ -1,0 +1,23 @@
+{
+  "_id": "req_b53cf0d488594f51bc87c2e463fb7a76",
+  "parentId": "fld_a7800b67d3a843e48e9e432627f398da",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "",
+  "name": "My Request",
+  "description": "",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633095437127,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

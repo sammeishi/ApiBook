@@ -1,0 +1,23 @@
+{
+  "_id": "req_273f7999e4354a6abb2aa8c8d7508ee3",
+  "parentId": "fld_29b971bdbfc84fa9a7dd9b150fb78c43",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.ga/rudder/bsm/report-builder/work-data?token={{slc_token}}&task=00bb6e605790000d",
+  "name": "获取工作数据",
+  "description": "",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214489,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

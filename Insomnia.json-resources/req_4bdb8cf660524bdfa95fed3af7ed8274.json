@@ -1,0 +1,23 @@
+{
+  "_id": "req_4bdb8cf660524bdfa95fed3af7ed8274",
+  "parentId": "fld_b1052e20122942b6bb369223ab470e10",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.ga/rudder/bsm/rbr/rbr-mgmt/add-struct-node?token={{slc_token}}&bid=1&name=哈哈哈",
+  "name": "添加节点",
+  "description": "",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214481,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

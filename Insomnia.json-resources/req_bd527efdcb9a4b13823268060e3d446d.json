@@ -1,0 +1,23 @@
+{
+  "_id": "req_bd527efdcb9a4b13823268060e3d446d",
+  "parentId": "fld_90db7692d8624df9b3cf71e0cfe0cb05",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.pro/bss/query-task?tid=00bb6e605790000d",
+  "name": "获取评测任务",
+  "description": "",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214457,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

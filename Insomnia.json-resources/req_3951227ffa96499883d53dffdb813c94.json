@@ -1,0 +1,23 @@
+{
+  "_id": "req_3951227ffa96499883d53dffdb813c94",
+  "parentId": "fld_e345e99e685a4092af257be6f2951010",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.pro/crm/csso/wx-oauth-login?raid=111&cb=http://wuya.pro",
+  "name": "微信授权登录",
+  "description": "",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214444,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

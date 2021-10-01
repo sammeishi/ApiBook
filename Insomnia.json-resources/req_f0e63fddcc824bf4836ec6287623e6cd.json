@@ -1,0 +1,37 @@
+{
+  "_id": "req_f0e63fddcc824bf4836ec6287623e6cd",
+  "parentId": "fld_b1052e20122942b6bb369223ab470e10",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.ga/rudder/bsm/rbr/rbr-mgmt/ref-list?token={{slc_token}}&bid=1&nid=7f8698fc1d92f649",
+  "name": "列出节点所有参考",
+  "description": "",
+  "method": "GET",
+  "body": {
+    "mimeType": "",
+    "text": [
+      "{\r",
+      "    \"ref_id\": 5,\r",
+      "    \"ref_title\": \"好烦\",\r",
+      "    \"ref_content\": \"参考内容\"\r",
+      "}"
+    ]
+  },
+  "parameters": [],
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "authentication": {},
+  "metaSortKey": -1633081214467,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

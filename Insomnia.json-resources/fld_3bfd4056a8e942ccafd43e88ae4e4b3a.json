@@ -1,0 +1,12 @@
+{
+  "_id": "fld_3bfd4056a8e942ccafd43e88ae4e4b3a",
+  "parentId": "wrk_ea3a1ed73a9f48cba27fc53c086f344f",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "name": "rudder",
+  "description": "",
+  "environment": {},
+  "environmentPropertyOrder": null,
+  "metaSortKey": -1633081217649,
+  "_type": "request_group"
+}

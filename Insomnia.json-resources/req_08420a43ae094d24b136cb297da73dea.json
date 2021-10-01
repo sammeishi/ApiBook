@@ -1,0 +1,23 @@
+{
+  "_id": "req_08420a43ae094d24b136cb297da73dea",
+  "parentId": "fld_b1052e20122942b6bb369223ab470e10",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.ga/rudder/bsm/rbr/rbr-mgmt/rename-struct-node?token={{slc_token}}&bid=1&nid=50fe25a615180b46550f1dbf50446cab&name=nnnnn",
+  "name": "改名节点",
+  "description": "",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214479,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

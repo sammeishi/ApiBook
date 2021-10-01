@@ -1,0 +1,51 @@
+{
+  "_id": "req_805c77801b084e348602b2ffbf7a0070",
+  "parentId": "fld_b70bd3611a274345aa2172b4a7c902db",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.ga/rudder/misc/oss-mgmt/add?token={{slc_token}}",
+  "name": "添加OSS",
+  "description": "",
+  "method": "POST",
+  "body": {
+    "params": [
+      {
+        "type": "file",
+        "name": "file",
+        "disabled": false,
+        "fileName": "/D:/@WORKSPACE/HQJ/SGW/project/Carrier/@Front/admin/src/assets/reportTheme/BusinessDefV2.jpg"
+      },
+      {
+        "type": "text",
+        "name": "type",
+        "disabled": false,
+        "value": "image"
+      },
+      {
+        "type": "text",
+        "name": "alias",
+        "disabled": false,
+        "value": "preview_image"
+      },
+      {
+        "type": "text",
+        "name": "zone",
+        "disabled": false,
+        "value": "/bodyseer/report/theme"
+      }
+    ],
+    "mimeType": "multipart/form-data"
+  },
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214502,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

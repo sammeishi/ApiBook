@@ -1,0 +1,23 @@
+{
+  "_id": "req_bc96304c2d0741e893c5be86b524eab7",
+  "parentId": "fld_e345e99e685a4092af257be6f2951010",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.pro/crm/csso/my/info",
+  "name": "当前登录",
+  "description": "",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214446,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

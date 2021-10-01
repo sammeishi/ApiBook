@@ -1,0 +1,23 @@
+{
+  "_id": "req_465e77a9fd5c4a35b9966c1baa01306e",
+  "parentId": "fld_b70bd3611a274345aa2172b4a7c902db",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.ga/rudder/misc/oss-mgmt/del?token={{slc_token}}&id=29fb80c18c077e796bc6095e7884d98f",
+  "name": "删除OSS",
+  "description": "",
+  "method": "GET",
+  "body": {},
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214500,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

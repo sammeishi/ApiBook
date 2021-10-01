@@ -1,0 +1,35 @@
+{
+  "_id": "jar_7624da9d9cf6171571b4f86415b01671a50061cc",
+  "parentId": "wrk_ea3a1ed73a9f48cba27fc53c086f344f",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "name": "Default Jar",
+  "cookies": [
+    {
+      "key": "PHPSESSID",
+      "value": "3vtmitgnr4ep9tmsqtvj5hsf9p",
+      "domain": "wuya.pro",
+      "path": "/",
+      "httpOnly": true,
+      "hostOnly": true,
+      "creation": "2021-10-01T10:06:15.302Z",
+      "lastAccessed": "2021-10-01T10:06:15.302Z",
+      "id": "24105344891357672"
+    },
+    {
+      "key": "CSSO_TOKEN",
+      "value": "8f9f64b69994e74904cfff55de4f82d787154aec7ce21a892d82a6871d246313a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22CSSO_TOKEN%22%3Bi%3A1%3Bs%3A32%3A%22973f23339e0887b21733efa3198a1dea%22%3B%7D",
+      "domain": "wuya.pro",
+      "path": "/",
+      "httpOnly": true,
+      "extensions": [
+        "SameSite=Lax"
+      ],
+      "hostOnly": true,
+      "creation": "2021-10-01T10:06:15.302Z",
+      "lastAccessed": "2021-10-01T10:06:15.302Z",
+      "id": "3608454885586856"
+    }
+  ],
+  "_type": "cookie_jar"
+}

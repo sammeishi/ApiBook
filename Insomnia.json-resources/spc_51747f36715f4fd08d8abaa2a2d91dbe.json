@@ -1,0 +1,10 @@
+{
+  "_id": "spc_51747f36715f4fd08d8abaa2a2d91dbe",
+  "parentId": "wrk_ea3a1ed73a9f48cba27fc53c086f344f",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "fileName": "Wuya",
+  "contents": "",
+  "contentType": "yaml",
+  "_type": "api_spec"
+}

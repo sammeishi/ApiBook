@@ -1,0 +1,48 @@
+{
+  "_id": "req_ace9eb8aa75f41c1999cb30beb341b0a",
+  "parentId": "fld_90db7692d8624df9b3cf71e0cfe0cb05",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.pro/bss/task-update/post-eva-plan-form?tid=00bb6e605790000d",
+  "name": "提交评测项收集表单",
+  "description": "",
+  "method": "POST",
+  "body": {
+    "mimeType": "multipart/form-data",
+    "params": [
+      {
+        "type": "text",
+        "name": "item0",
+        "disabled": false,
+        "value": "{\"type\":\"uploadImg\",\"question\":\"233\",\"tag\":\"fuck\"}",
+        "id": "pair_61a233d888f24fcabaf988984297d804"
+      },
+      {
+        "type": "file",
+        "name": "item0-res",
+        "disabled": false,
+        "fileName": "C:\\Users\\sam\\Desktop\\111.png",
+        "id": "pair_1af90bea19754884ac55ef4f9ff29ac8"
+      },
+      {
+        "type": "text",
+        "name": "item1",
+        "disabled": false,
+        "value": "{\"type\":\"option\",\"question\":\"233\",\"oResult\":[1,2,3,4]}",
+        "id": "pair_4c2dd37858234d7a93a583b44afeb625"
+      }
+    ]
+  },
+  "parameters": [],
+  "headers": [],
+  "authentication": {},
+  "metaSortKey": -1633081214456,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

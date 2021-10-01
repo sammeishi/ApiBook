@@ -1,0 +1,37 @@
+{
+  "_id": "req_d5cb3dfa048a474ea024fc4625214c14",
+  "parentId": "fld_b1052e20122942b6bb369223ab470e10",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.ga/rudder/bsm/rbr/rbr-mgmt/del-ref?token={{slc_token}}&rid=1",
+  "name": "删除参考",
+  "description": "",
+  "method": "GET",
+  "body": {
+    "mimeType": "",
+    "text": [
+      "{\r",
+      "    \"nid\": \"034b63639e6fe342\",\r",
+      "    \"title\": \"参考标题\",\r",
+      "    \"content\": \"参考内容\"\r",
+      "}"
+    ]
+  },
+  "parameters": [],
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "authentication": {},
+  "metaSortKey": -1633081214472,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

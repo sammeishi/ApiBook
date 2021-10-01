@@ -1,0 +1,35 @@
+{
+  "_id": "req_2fd73392f17a476f986b2272ecf99095",
+  "parentId": "fld_29b971bdbfc84fa9a7dd9b150fb78c43",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.ga/rudder/bsm/report-builder/publish?token={{slc_token}}&task=00bb6e605790000d",
+  "name": "出具报告",
+  "description": "",
+  "method": "POST",
+  "body": {
+    "mimeType": "",
+    "text": [
+      "{\r",
+      "    \"TaskInfo\": {}\r",
+      "}"
+    ]
+  },
+  "parameters": [],
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "authentication": {},
+  "metaSortKey": -1633081214487,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}
