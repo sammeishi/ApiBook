@@ -1,10 +1,10 @@
 {
-  "_id": "req_f1d1db4f703f46d0ad4887f6af5c74f0",
-  "parentId": "fld_891e62d8924f406c89750964b32bbaa4",
+  "_id": "req_57f27b6e2c3e4acd82a50351f0de982d",
+  "parentId": "fld_eb37d29439ae4fd195f4c65a34085435",
   "modified": 1600000000000,
   "created": 1600000000000,
-  "url": "http://wuya.pro/dev/test/t1",
-  "name": "测试",
+  "url": "http://wuya.pro/oss/test/del?id=abf69d111741aeef0d39ed8baaa2fe63",
+  "name": "测试-删除",
   "description": "",
   "method": "GET",
   "body": {
@@ -16,11 +16,11 @@
     {
       "name": "Content-Type",
       "value": "multipart/form-data",
-      "id": "pair_806a168db7234d0398075e2a47542db0"
+      "id": "pair_3cc76b5f248f4cab8ec931f161de5ec2"
     }
   ],
   "authentication": {},
-  "metaSortKey": -1633081214463,
+  "metaSortKey": -1633696985471,
   "isPrivate": false,
   "settingStoreCookies": true,
   "settingSendCookies": true,

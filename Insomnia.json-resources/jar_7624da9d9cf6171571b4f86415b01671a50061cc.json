@@ -14,11 +14,11 @@
       "hostOnly": true,
       "creation": "2021-10-01T10:06:15.302Z",
       "lastAccessed": "2021-10-01T10:06:15.302Z",
-      "id": "24105344891357672"
+      "id": "04495840997464162"
     },
     {
       "key": "CSSO_TOKEN",
-      "value": "8f9f64b69994e74904cfff55de4f82d787154aec7ce21a892d82a6871d246313a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22CSSO_TOKEN%22%3Bi%3A1%3Bs%3A32%3A%22973f23339e0887b21733efa3198a1dea%22%3B%7D",
+      "value": "8d31ad488893f3f6a29a918c7fad212332d25596757a018534dfba797b792458a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22CSSO_TOKEN%22%3Bi%3A1%3Bs%3A32%3A%22f416fbb2071897356aa564544dd4f7fb%22%3B%7D",
       "domain": "wuya.pro",
       "path": "/",
       "httpOnly": true,
@@ -27,8 +27,22 @@
       ],
       "hostOnly": true,
       "creation": "2021-10-01T10:06:15.302Z",
-      "lastAccessed": "2021-10-01T10:06:15.302Z",
-      "id": "3608454885586856"
+      "lastAccessed": "2021-10-15T08:14:39.233Z",
+      "id": "7787001384654937"
+    },
+    {
+      "key": "_csrf",
+      "value": "ffd9f67c6c01d3b23ecdde4b81ffded1a666730f2c538ea830bd16d435cd1df7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XzqlfvSELSC0q60lupaj84M4mRCxg5U3%22%3B%7D",
+      "domain": "wuya.pro",
+      "path": "/",
+      "httpOnly": true,
+      "extensions": [
+        "SameSite=Lax"
+      ],
+      "hostOnly": true,
+      "creation": "2021-10-08T12:47:30.781Z",
+      "lastAccessed": "2021-10-08T12:47:30.781Z",
+      "id": "6620173927569655"
     }
   ],
   "_type": "cookie_jar"

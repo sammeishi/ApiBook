@@ -1,0 +1,41 @@
+{
+  "_id": "req_f8e24a9b2678497bbeada172bd46066c",
+  "parentId": "fld_eb37d29439ae4fd195f4c65a34085435",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.pro/oss/test/update-obj",
+  "name": "测试-更新OBJ",
+  "description": "",
+  "method": "POST",
+  "body": {
+    "mimeType": "multipart/form-data",
+    "params": [
+      {
+        "id": "pair_6318b2f78c5c4375b27b434a49d0462b",
+        "name": "file",
+        "value": "",
+        "description": "",
+        "type": "file",
+        "fileName": "C:\\Users\\sam\\Desktop\\配图\\1.jpg"
+      }
+    ]
+  },
+  "parameters": [],
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "multipart/form-data",
+      "id": "pair_3cc76b5f248f4cab8ec931f161de5ec2"
+    }
+  ],
+  "authentication": {},
+  "metaSortKey": -1633677755278.375,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}

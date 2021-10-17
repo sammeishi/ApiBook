@@ -147,6 +147,18 @@
       "_type": "request_group"
     },
     {
+      "_id": "fld_eb37d29439ae4fd195f4c65a34085435",
+      "parentId": "wrk_ea3a1ed73a9f48cba27fc53c086f344f",
+      "modified": 1600000000000,
+      "created": 1600000000000,
+      "name": "OSS",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1633696981385,
+      "_type": "request_group"
+    },
+    {
       "_id": "req_02061bd15912462a988265a66cd3dfd9",
       "parentId": "fld_b1052e20122942b6bb369223ab470e10",
       "modified": 1600000000000,
@@ -247,6 +259,59 @@
       "_type": "request"
     },
     {
+      "_id": "req_310581f3b91c4c5fa9101ce1e823be55",
+      "parentId": "fld_eb37d29439ae4fd195f4c65a34085435",
+      "modified": 1600000000000,
+      "created": 1600000000000,
+      "url": "http://wuya.pro/oss/test/add-from-upload",
+      "name": "测试-从上传添加",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": [
+          {
+            "id": "pair_08992dc821f144f09470887c526ea7ee",
+            "name": "file",
+            "value": "",
+            "description": "",
+            "type": "file",
+            "fileName": "C:\\Users\\sam\\Desktop\\配图\\111.png"
+          },
+          {
+            "id": "pair_ec2a745b63d548f19feed3a9fac09e11",
+            "name": "type",
+            "value": "image",
+            "description": ""
+          },
+          {
+            "id": "pair_e7d90bd967334936856ef4520dfaa6a4",
+            "name": "zone",
+            "value": "fuck/me",
+            "description": ""
+          }
+        ]
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "multipart/form-data",
+          "id": "pair_3cc76b5f248f4cab8ec931f161de5ec2"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1633683249619.125,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
       "_id": "req_3951227ffa96499883d53dffdb813c94",
       "parentId": "fld_e345e99e685a4092af257be6f2951010",
       "modified": 1600000000000,
@@ -316,6 +381,38 @@
       "_type": "request"
     },
     {
+      "_id": "req_57f27b6e2c3e4acd82a50351f0de982d",
+      "parentId": "fld_eb37d29439ae4fd195f4c65a34085435",
+      "modified": 1600000000000,
+      "created": 1600000000000,
+      "url": "http://wuya.pro/oss/test/del?id=abf69d111741aeef0d39ed8baaa2fe63",
+      "name": "测试-删除",
+      "description": "",
+      "method": "GET",
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": []
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "multipart/form-data",
+          "id": "pair_3cc76b5f248f4cab8ec931f161de5ec2"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1633696985471,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
       "_id": "req_59af7ef8ac6d47b3abd4eab80e29cf94",
       "parentId": "fld_b70bd3611a274345aa2172b4a7c902db",
       "modified": 1600000000000,
@@ -360,6 +457,29 @@
       ],
       "authentication": {},
       "metaSortKey": -1633081214474,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_78eb3e7964004120be789db8d1d1a4b1",
+      "parentId": "fld_90db7692d8624df9b3cf71e0cfe0cb05",
+      "modified": 1600000000000,
+      "created": 1600000000000,
+      "url": "http://wuya.pro/bss/pub-share/create-poster?tid=00bb6e605790000d",
+      "name": "公共分享生成图片",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1633081214456.5,
       "isPrivate": false,
       "settingStoreCookies": true,
       "settingSendCookies": true,
@@ -506,6 +626,38 @@
       "_type": "request"
     },
     {
+      "_id": "req_a1d212a9c0274497b80b57fd0d72730d",
+      "parentId": "fld_eb37d29439ae4fd195f4c65a34085435",
+      "modified": 1600000000000,
+      "created": 1600000000000,
+      "url": "http://wuya.pro/oss/test/add-from-file",
+      "name": "测试-从文件添加",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": []
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "multipart/form-data",
+          "id": "pair_3cc76b5f248f4cab8ec931f161de5ec2"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1633681876033.9375,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
       "_id": "req_ace9eb8aa75f41c1999cb30beb341b0a",
       "parentId": "fld_90db7692d8624df9b3cf71e0cfe0cb05",
       "modified": 1600000000000,
@@ -544,6 +696,38 @@
       "headers": [],
       "authentication": {},
       "metaSortKey": -1633081214456,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_ae6f3574dd28484894e0e30fede145fb",
+      "parentId": "fld_eb37d29439ae4fd195f4c65a34085435",
+      "modified": 1600000000000,
+      "created": 1600000000000,
+      "url": "http://wuya.pro/oss/test/add-from-url",
+      "name": "测试-从URL添加",
+      "description": "",
+      "method": "GET",
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": []
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "multipart/form-data",
+          "id": "pair_3cc76b5f248f4cab8ec931f161de5ec2"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1633685996789.5,
       "isPrivate": false,
       "settingStoreCookies": true,
       "settingSendCookies": true,
@@ -604,7 +788,7 @@
       "parentId": "fld_90db7692d8624df9b3cf71e0cfe0cb05",
       "modified": 1600000000000,
       "created": 1600000000000,
-      "url": "http://wuya.pro/bss/query-task?tid=00bb6e605790000d",
+      "url": "http://wuya.pro/bss/query-task?tid=00bb6e605790000d&pub=8bd6d630defe5e549c41f40de71cf382",
       "name": "获取评测任务",
       "description": "",
       "method": "GET",
@@ -613,6 +797,29 @@
       "headers": [],
       "authentication": {},
       "metaSortKey": -1633081214457,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_c02c5085eb784c429b145cfb4281161f",
+      "parentId": "fld_90db7692d8624df9b3cf71e0cfe0cb05",
+      "modified": 1600000000000,
+      "created": 1600000000000,
+      "url": "http://wuya.pro/bss/pub-share/create-url?tid=00bb6e605790000d",
+      "name": "公共分享生成URL",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1633675008108,
       "isPrivate": false,
       "settingStoreCookies": true,
       "settingSendCookies": true,
@@ -677,6 +884,38 @@
       "_type": "request"
     },
     {
+      "_id": "req_ef66cd1ee19341e7b598eee1224b1293",
+      "parentId": "fld_eb37d29439ae4fd195f4c65a34085435",
+      "modified": 1600000000000,
+      "created": 1600000000000,
+      "url": "http://wuya.pro/oss/test/cleaner",
+      "name": "测试-唤醒Cleaner",
+      "description": "",
+      "method": "GET",
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": []
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "multipart/form-data",
+          "id": "pair_3cc76b5f248f4cab8ec931f161de5ec2"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1633680502448.75,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
       "_id": "req_f0e63fddcc824bf4836ec6287623e6cd",
       "parentId": "fld_b1052e20122942b6bb369223ab470e10",
       "modified": 1600000000000,
@@ -712,13 +951,22 @@
       "parentId": "fld_891e62d8924f406c89750964b32bbaa4",
       "modified": 1600000000000,
       "created": 1600000000000,
-      "url": "",
+      "url": "http://wuya.pro/dev/test/t1",
       "name": "测试",
       "description": "",
       "method": "GET",
-      "body": {},
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": []
+      },
       "parameters": [],
-      "headers": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "multipart/form-data",
+          "id": "pair_806a168db7234d0398075e2a47542db0"
+        }
+      ],
       "authentication": {},
       "metaSortKey": -1633081214463,
       "isPrivate": false,
@@ -754,6 +1002,47 @@
       "_type": "request"
     },
     {
+      "_id": "req_f8e24a9b2678497bbeada172bd46066c",
+      "parentId": "fld_eb37d29439ae4fd195f4c65a34085435",
+      "modified": 1600000000000,
+      "created": 1600000000000,
+      "url": "http://wuya.pro/oss/test/update-obj",
+      "name": "测试-更新OBJ",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": [
+          {
+            "id": "pair_6318b2f78c5c4375b27b434a49d0462b",
+            "name": "file",
+            "value": "",
+            "description": "",
+            "type": "file",
+            "fileName": "C:\\Users\\sam\\Desktop\\配图\\1.jpg"
+          }
+        ]
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "multipart/form-data",
+          "id": "pair_3cc76b5f248f4cab8ec931f161de5ec2"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1633677755278.375,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
       "_id": "jar_7624da9d9cf6171571b4f86415b01671a50061cc",
       "parentId": "wrk_ea3a1ed73a9f48cba27fc53c086f344f",
       "modified": 1600000000000,
@@ -769,11 +1058,11 @@
           "hostOnly": true,
           "creation": "2021-10-01T10:06:15.302Z",
           "lastAccessed": "2021-10-01T10:06:15.302Z",
-          "id": "24105344891357672"
+          "id": "04495840997464162"
         },
         {
           "key": "CSSO_TOKEN",
-          "value": "8f9f64b69994e74904cfff55de4f82d787154aec7ce21a892d82a6871d246313a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22CSSO_TOKEN%22%3Bi%3A1%3Bs%3A32%3A%22973f23339e0887b21733efa3198a1dea%22%3B%7D",
+          "value": "8d31ad488893f3f6a29a918c7fad212332d25596757a018534dfba797b792458a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22CSSO_TOKEN%22%3Bi%3A1%3Bs%3A32%3A%22f416fbb2071897356aa564544dd4f7fb%22%3B%7D",
           "domain": "wuya.pro",
           "path": "/",
           "httpOnly": true,
@@ -782,8 +1071,22 @@
           ],
           "hostOnly": true,
           "creation": "2021-10-01T10:06:15.302Z",
-          "lastAccessed": "2021-10-01T10:06:15.302Z",
-          "id": "3608454885586856"
+          "lastAccessed": "2021-10-15T08:14:39.233Z",
+          "id": "7787001384654937"
+        },
+        {
+          "key": "_csrf",
+          "value": "ffd9f67c6c01d3b23ecdde4b81ffded1a666730f2c538ea830bd16d435cd1df7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XzqlfvSELSC0q60lupaj84M4mRCxg5U3%22%3B%7D",
+          "domain": "wuya.pro",
+          "path": "/",
+          "httpOnly": true,
+          "extensions": [
+            "SameSite=Lax"
+          ],
+          "hostOnly": true,
+          "creation": "2021-10-08T12:47:30.781Z",
+          "lastAccessed": "2021-10-08T12:47:30.781Z",
+          "id": "6620173927569655"
         }
       ],
       "_type": "cookie_jar"

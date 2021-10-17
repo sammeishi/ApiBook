@@ -1,0 +1,53 @@
+{
+  "_id": "req_310581f3b91c4c5fa9101ce1e823be55",
+  "parentId": "fld_eb37d29439ae4fd195f4c65a34085435",
+  "modified": 1600000000000,
+  "created": 1600000000000,
+  "url": "http://wuya.pro/oss/test/add-from-upload",
+  "name": "测试-从上传添加",
+  "description": "",
+  "method": "POST",
+  "body": {
+    "mimeType": "multipart/form-data",
+    "params": [
+      {
+        "id": "pair_08992dc821f144f09470887c526ea7ee",
+        "name": "file",
+        "value": "",
+        "description": "",
+        "type": "file",
+        "fileName": "C:\\Users\\sam\\Desktop\\配图\\111.png"
+      },
+      {
+        "id": "pair_ec2a745b63d548f19feed3a9fac09e11",
+        "name": "type",
+        "value": "image",
+        "description": ""
+      },
+      {
+        "id": "pair_e7d90bd967334936856ef4520dfaa6a4",
+        "name": "zone",
+        "value": "fuck/me",
+        "description": ""
+      }
+    ]
+  },
+  "parameters": [],
+  "headers": [
+    {
+      "name": "Content-Type",
+      "value": "multipart/form-data",
+      "id": "pair_3cc76b5f248f4cab8ec931f161de5ec2"
+    }
+  ],
+  "authentication": {},
+  "metaSortKey": -1633683249619.125,
+  "isPrivate": false,
+  "settingStoreCookies": true,
+  "settingSendCookies": true,
+  "settingDisableRenderRequestBody": false,
+  "settingEncodeUrl": true,
+  "settingRebuildPath": true,
+  "settingFollowRedirects": "global",
+  "_type": "request"
+}
